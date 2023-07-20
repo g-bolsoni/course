@@ -2,7 +2,7 @@ import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import './globals.css'
 import type { Metadata } from 'next'
-
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -17,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Analytics />
         <Header />
         {children}
         <Footer />
