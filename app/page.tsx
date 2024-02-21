@@ -90,10 +90,36 @@ export default function Home(this: any) {
             </h3>
           </div>
         </div>
-        <Testimonials videoUrl="https://www.youtube.com/embed/bkT5G5P9q6E" videoTitle="Depoimento 1" color="gray" />
-        <Testimonials videoUrl="https://www.youtube.com/embed/oKBRZbTmS_0" videoTitle="Depoimento 2" color="white" invert />
-        <Testimonials videoUrl="https://www.youtube.com/embed/uggCX6lE6XU" videoTitle="Depoimento 3" color="gray" />
-        <Testimonials videoUrl="https://www.youtube.com/embed/Dv56sQRKcvs" videoTitle="Depoimento" color="white" invert />
+        <Testimonials
+          videoUrl="https://www.youtube.com/embed/bkT5G5P9q6E"
+          videoTitle="Depoimento 1"
+          color="gray"
+          testimonial="<span>Meu nome é Thiago Viana, residente em Bebedouro, com 39 anos de idade. Dedico-me a prestar concursos desde os 19 anos. Este ano, surgiu um edital para o concurso da SAEB, oferecendo uma vaga de assessor de imprensa. Já formado em Publicidade e Propaganda e com experiência em concursos anteriores, decidi candidatar-me. Contudo, como fazia tempo que não estudava, senti a necessidade de investir em um preparatório, onde tive o prazer de conhecer Guilherme, meu professor de Português.</span><span>Guilherme compartilhou diversas dicas valiosas, e, surpreendentemente, muitas das questões que apareceram na prova já haviam sido tratadas em nossos exercícios em sala. Com sua ajuda, conquistei o 1º lugar no concurso e agora aguardo ansiosamente pela minha nomeação. As aulas eram extremamente didáticas, facilitando o aprendizado de maneira eficaz. Sempre que surgia alguma dúvida, Guilherme não hesitava em pausar e esclarecer os pontos até que todos compreendessem completamente o conteúdo. Posso assegurar: ele é um professor excepcional. Confie no curso; eu garanto que vale a pena ❤️.</span>"
+        />
+
+        <Testimonials
+          videoUrl="https://www.youtube.com/embed/oKBRZbTmS_0"
+          videoTitle="Depoimento 2"
+          color="white"
+          invert
+          testimonial="<span>Meu nome é Ana Carolina, e vim compartilhar minha experiência com o curso de Língua Portuguesa. Há algum tempo, venho prestando concursos e, ao analisar minhas provas, percebi que, embora dominasse os conhecimentos específicos, meu desempenho em Língua Portuguesa estava afetando negativamente minha classificação. Iniciei o curso no início de 2021 e o frequentei durante todo o ano. Um dos diferenciais é a possibilidade de começar do básico e progredir até o avançado. Após as aulas ao longo do ano, conquistei a aprovação em dois concursos públicos: o primeiro no início deste ano e o segundo, mais recentemente, no final do ano. Atualmente, sou professora concursada na rede municipal de Guariba. Recomendo enfaticamente o curso, especialmente se combinado a uma rotina de estudos dedicada❤️.</span>"
+        />
+
+        <Testimonials
+          videoUrl="https://www.youtube.com/embed/uggCX6lE6XU"
+          videoTitle="Depoimento 3"
+          color="gray"
+          testimonial="<span>Meu nome é Luciana, e participei do curso ministrado pelo professor Guilherme, que incluiu aulas ao vivo. A didática do professor Guilherme é excepcional. Ele demonstra paciência, revisita explicações quantas vezes forem necessárias, e se assegura de que ninguém termine a aula com dúvidas. Além disso, ele incorpora exercícios práticos durante as aulas e traz questões de concursos públicos anteriores para resolvermos juntos. A língua portuguesa sempre representou um grande desafio para mim nos processos seletivos. No entanto, este ano, após concluir o curso do professor Guilherme, obtive o 1º lugar no processo seletivo da prefeitura municipal de Bebedouro, para o cargo de professora de educação infantil 2, acertando todas as questões de português. Além disso, fui aprovada em outro concurso público, conquistando a 3ª colocação para professora de educação especial.</span><span>O curso do professor Guilherme transformou minha vida❤️. Sempre enfrentei dificuldades significativas em língua portuguesa, mas, com este curso, alcancei um desempenho excepcional nessa disciplina.</span>"
+        />
+
+        <Testimonials
+          videoUrl="https://www.youtube.com/embed/Dv56sQRKcvs"
+          videoTitle="Depoimento"
+          color="white"
+          invert
+          testimonial="<span>Meu nome é Marcia, e sou aluna do professor Guilherme, participando de dois cursos conduzidos por ele: um voltado para o concurso de Bebedouro e outro para o de Ribeirão Preto. No concurso de Bebedouro, obtive a 7ª colocação para a posição de PEB 1 e a 43ª para professora de educação infantil 2. No concurso de Ribeirão Preto, alcancei a 13ª posição. Além disso, aplicando os conhecimentos adquiridos no curso a outros concursos, consegui excelentes resultados, com aprovação na 33ª posição em um concurso em Sertãozinho e na 18ª posição em Pontal. </span><span>O Guilherme é um professor que realmente nos envolve em suas aulas, e isso faz toda a diferença para o nosso aprendizado. Ele dedica-se a resolver muitos exercícios direcionados especificamente aos concursos que estamos nos preparando para enfrentar, o que faz com que a maioria das questões abordadas em aula apareça nas provas. O curso é maravilhoso, e só tenho a agradecer ao professor Guilherme por todo o conhecimento compartilhado❤️.</span>"
+        />
+
         <div className="container mx-auto px-8 md:px-0">
           <div className="flex justify-center">
             <Button />
@@ -142,16 +168,10 @@ export default function Home(this: any) {
               </div>
               <div className="w-full lg:w-3/5 tracking-wide">
                 <p className="my-4 text-lg font-normal">
-                  Sou professor de português formado há mais de 10 anos, com mestrado na UNESP – Araraquara e concurseiro desde os 15 anos de idade.
+                  Sou um dedicado professor de português, atuando na área há mais de uma década, com uma sólida formação acadêmica evidenciada pelo meu mestrado obtido na UNESP – Araraquara. Minha trajetória em concursos públicos começou cedo, aos 15 anos de idade, uma paixão que me levou a ser aprovado em dezenas de concursos ao longo dos anos. Atualmente, ocupo a posição de Escrevente no Tribunal de Justiça de São Paulo, uma conquista que reflete meu comprometimento e habilidade.
                 </p>
                 <p className="my-4 text-lg font-normal">
-                  Já fui aprovado em dezenas de concursos e hoje sou Escrevente no Tribunal de Justiça de São Paulo.
-                </p>
-                <p className="my-4 text-lg font-normal">
-                  Sou professor em cursos preparatórios para concursos há mais de 2 anos.
-                </p>
-                <p className="my-4 text-lg font-normal">
-                  Ao longo da minha jornada, desenvolvi este método que facilita e entrega de bandeja os assuntos mais pedidos pelas bancas, para você não precisar estudar sempre todo o edital e, assim, ganhar tempo nos estudos.
+                  Nos últimos dois anos, tenho compartilhado meu conhecimento e experiência como professor em cursos preparatórios para concursos. Durante minha jornada, desenvolvi um método inovador que simplifica o aprendizado e destaca os tópicos mais relevantes frequentemente cobrados pelas bancas examinadoras. Esse método é projetado para otimizar seus estudos, permitindo que você se concentre no que realmente importa, evitando a necessidade de revisar todo o edital. O objetivo é maximizar seu tempo de estudo, garantindo que você esteja bem preparado para enfrentar os desafios dos concursos.
                 </p>
               </div>
             </div>
